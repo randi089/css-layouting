@@ -1,0 +1,72 @@
+body {
+	height: 1000px;
+}
+
+.kotak1, .kotak2, .kotak3 {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	position: absolute;
+}
+
+.kotak1 {
+	background-color: lightblue;
+	z-index: 1;
+}
+
+.kotak2 {
+	background-color: lightgreen;
+	top: 75px;
+	left: 75px;
+	z-index: 2;
+}
+
+.kotak3 {
+	background-color: salmon;
+	top: 150px;
+	left: 150px;
+	z-index: 3;
+}
+
+.container {
+	width: 450px;
+	height: 450px;
+	border: 10px solid black;
+	margin: 50px auto;
+	position: relative;
+}
+
+.topbar {
+	background-color: darkblue;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+.iklan {
+	background-color: rgba(0, 0, 1, 0.6);
+	position: fixed;
+	top: 100px;
+	bottom: 100px;
+	left: 100px;
+	right: 100px;
+	z-index: 9999;
+}
+
+.close {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	font-family: arial;
+	border: 3px solid black;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	position: absolute;
+	right: -15px;
+	top: -15px;
+	border-radius: 50%;
+}
